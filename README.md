@@ -9,6 +9,26 @@
 - Based in https://gallery.azure.ai/Experiment/Retail-Churn-Template-Step-1-of-4-tagging-data-1
 - Import external librarie in Azure Machine Learning Studio
 
+<img src="images/01.1-data_cleansing.JPG" align="center" height=auto width=80%/>
+
+<img src="images/01.2-data_cleansing.JPG" align="center" height=auto width=80%/>
+
+<img src="images/challenge_retail_churn_3.png" align="center" height=auto width=80%/>
+
+---
+
+<img src="images/challenge_retail_churn_4.png" align="center" height=auto width=80%/>
+
+---
+
+<img src="images/challenge_retail_churn_5.png" align="center" height=auto width=80%/>
+
+---
+
+#### Sample Tree Generated
+<img src="images/sample_tree.JPG" align="center" height=auto width=30%/>
+
+
 ## Algoritm
 - Boosted Decision Tree
 
@@ -18,7 +38,7 @@
 - Step 03: Download [dashboard](data_visualization/)
 
 ## Requirements
-- Account in [azure machine learing studio](https://studio.azureml.net/)
+- Account in [azure](https://studio.azureml.net/)
 - Windows 10
 - PowerBI
 - VS code
