@@ -1,23 +1,34 @@
 # Challenge: Data Scientist at Softplan
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://aka.ms/aml-clone-azure-notebooks)
-[![Python 3.7](https://img.shields.io/badge/python-3.7-yellow.svg)](https://www.python.org/downloads/release/python-371/)
+[![Python 3.5](https://img.shields.io/badge/python-3.5-yellow.svg)](https://www.python.org/downloads/release/python-371/)
 
 ## Describe Project
 - Challenge for Data Scientist job at Softplan.
 - Predicting Retail Churn
 - Based in https://gallery.azure.ai/Experiment/Retail-Churn-Template-Step-1-of-4-tagging-data-1
+- Import external librarie in Azure Machine Learning Studio
+
+## Algoritm
 - Boosted Decision Tree
 
 ## Quickstart
-
+Step 01: 
+Step 02: https://gallery.cortanaintelligence.com/Experiment/02-Retail-Churn-train-and-evaluate-model
+Step 03: Download [dashboard](data_visualization/)
 
 ## Requirements
 - Account in [azure machine learing studio](https://studio.azureml.net/)
-
+- Windows 10
+- PowerBI
+- VS CODE
+- Python 3.5
 - Libraries
 ```
-pip3 install azureml-sdk
+numpy
+pandas
+
+azureml-sdk # external use
 ```
 
 ---
