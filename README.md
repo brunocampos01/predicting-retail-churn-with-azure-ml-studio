@@ -33,9 +33,9 @@
 - Boosted Decision Tree
 
 ## Quickstart
-- Step 01: https://gallery.cortanaintelligence.com/Experiment/01-Retail-Churn-data-cleansing-and-feature-engineering
-- Step 02: https://gallery.cortanaintelligence.com/Experiment/02-Retail-Churn-train-and-evaluate-model
-- Step 03: Download [dashboard](data_visualization/)
+- [Step 01 - data cleansing and feature engineering](https://gallery.cortanaintelligence.com/Experiment/01-Retail-Churn-data-cleansing-and-feature-engineering)
+- [Step 02 - Train and evaluate](https://gallery.cortanaintelligence.com/Experiment/02-Retail-Churn-train-and-evaluate-model)
+- [Step 03 - dashboard](data_visualization/)
 
 ## Requirements
 - Account in [azure](https://studio.azureml.net/)

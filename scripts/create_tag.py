@@ -10,6 +10,11 @@ def azureml_main(dataframe1 = None, dataframe2 = None):
     # Param:
     #   dataframe1: JoinedActivityUserInfor DataFrame
     #   dataframe2: Churn Start Period 
+    print "----- Dataset to handler -----\n"
+    print dataframe1.columns
+    print dataframe1.info()
+    print "----- Dataset to handler -----\n"
+
     key_column='UserId'
     activity_column='TransactionId'
     
