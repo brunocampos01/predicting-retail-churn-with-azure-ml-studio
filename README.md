@@ -1,9 +1,9 @@
-# Challenge: Data Scientist at Softplan
+# Challenge: Data Scientist
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://aka.ms/aml-clone-azure-notebooks)
 [![Python 3.5](https://img.shields.io/badge/Python-3.5-yellow.svg)](https://www.python.org/downloads/release/python-391/)
 
-- Challenge for Data Scientist job at Softplan.
+- Challenge for Data Scientist job.
 - Predicting Retail Churn
 - Based in https://gallery.azure.ai/Experiment/Retail-Churn-Template-Step-1-of-4-tagging-data-1
 - Import external librarie in Azure Machine Learning Studio
