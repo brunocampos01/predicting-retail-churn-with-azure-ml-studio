@@ -1,6 +1,5 @@
 # Challenge: Data Scientist
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
-[![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://aka.ms/aml-clone-azure-notebooks)
 [![Python 3.5](https://img.shields.io/badge/Python-3.5-yellow.svg)](https://www.python.org/downloads/release/python-391/)
 
 - Challenge for Data Scientist job.
