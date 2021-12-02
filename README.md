@@ -37,17 +37,19 @@
 - [Step 03 - dashboard](data_visualization/)
 
 ## Requirements
-- Account in [azure](https://studio.azureml.net/)
-- Windows 10
-- PowerBI
-- VS code
-- Python 3.5
-- Libraries
-```python
-numpy
-pandas
-azureml-sdk # external use
-```
+This project is tested with:
+
+| Requisite                                         |
+|---------------------------------------------------|
+| Account in [azure](https://studio.azureml.net/)   |
+| Windows 10                                        |
+| PowerBI                                           |
+| VS code                                           |
+| Python 3.5                                        |
+| Lib Numpy                                         |
+| Lib Pandas                                        |
+| Lib azureml-sdk                                   |
+
 
 ---
 
