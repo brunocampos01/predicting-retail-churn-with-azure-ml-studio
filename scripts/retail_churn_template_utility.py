@@ -38,10 +38,8 @@ class RetailChurnTemplateUtility:
         X_column: string
             The column for which unique entries are being calculated
         """
-        df2 = pd.DataFrame(
+        return pd.DataFrame(
             df1.groupby(key_column)[X_column].nunique()).reset_index()
-
-        return df2
 
     @staticmethod
     def calculateSum_X(df1, key_column, X_column):
@@ -59,10 +57,8 @@ class RetailChurnTemplateUtility:
         X_column: string    
             The column for which unique sum is being calculated
         """
-        df2 = pd.DataFrame(
+        return pd.DataFrame(
             df1.groupby(key_column)[X_column].sum()).reset_index()
-
-        return df2
 
     @staticmethod
     def calculateStDev_X(df1, key_column, X_column):
@@ -81,10 +77,8 @@ class RetailChurnTemplateUtility:
         X_column: string
             The column for standard deviation is being calculated
         """
-        df2 = pd.DataFrame(
+        return pd.DataFrame(
             df1.groupby(key_column)[X_column].std()).reset_index()
-
-        return df2
 
     def calculateNumericalDataFeaturesForGroup(self, df1, key_column,
                                                summable_columns, max_date,
@@ -255,7 +249,6 @@ class RetailChurnTemplateUtility:
                 feat_dfs.append(df_temp)
 
         # Generating Features corresponding to the summable list
-
         df_final = reduce(lambda left,
                                  right: pd.merge(left,
                                                  right,
@@ -337,8 +330,12 @@ class RetailChurnTemplateUtility:
         return df_str
 
     def calculateRecency(self, df1, key_column, max_date):
-        # Calculating recency related features 1) Sort the time stamps 2) Get min and max date 3) Extend the max date to the end of the month as it is the current unit right now
         """
+        # Calculating recency related features 
+            1) Sort the time stamps 
+            2) Get min and max date 
+            3) Extend the max date to the end of the month as it is the current unit right now
+        
         Method to calculate difference between the last day of the period and the last day on which the transaction was made by each of the user.
 
         Parameters
@@ -480,7 +477,12 @@ class RetailChurnTemplateUtility:
                                         df_final[num_feat] / (
                                                 df_final[denom_feat] + 1.0)
 
-                        elif 'StDev' in num_feat or 'StDev' in denom_feat or 'Recency' in num_feat or 'Recency' in denom_feat or 'AvgTimeDelta' in num_feat or 'AvgTimeDelta' in denom_feat:
+                        elif 'StDev' in num_feat 
+                            or 'StDev' in denom_feat 
+                            or 'Recency' in num_feat 
+                            or 'Recency' in denom_feat 
+                            or 'AvgTimeDelta' in num_feat 
+                            or 'AvgTimeDelta' in denom_feat:
                             pass
                         else:
                             print('Calculating {}'.format(num_feat + '_ratio_' + denom_feat))
