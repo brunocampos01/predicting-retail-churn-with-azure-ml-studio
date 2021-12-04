@@ -23,6 +23,20 @@ Boosted Decision Tree
 - [Step 02 - Train and evaluate](https://gallery.cortanaintelligence.com/Experiment/02-Retail-Churn-train-and-evaluate-model)
 - [Step 03 - dashboard](data_visualization/)
 
+## Requirements
+This project is tested with:
+
+| Requisite                                         |
+|---------------------------------------------------|
+| Account in [azure](https://studio.azureml.net/)   |
+| Windows 10                                        |
+| PowerBI                                           |
+| VS code                                           |
+| Python 3.5                                        |
+| Lib Numpy                                         |
+| Lib Pandas                                        |
+| Lib azureml-sdk                                   |
+
 ## Snapshots
 
 <img src="images/01.1-data_cleansing.JPG" align="center" height=auto width=80%/>
@@ -38,24 +52,6 @@ Boosted Decision Tree
 ---
 
 <img src="images/challenge_retail_churn_5.png" align="center" height=auto width=80%/>
-
-
-
-
-
-## Requirements
-This project is tested with:
-
-| Requisite                                         |
-|---------------------------------------------------|
-| Account in [azure](https://studio.azureml.net/)   |
-| Windows 10                                        |
-| PowerBI                                           |
-| VS code                                           |
-| Python 3.5                                        |
-| Lib Numpy                                         |
-| Lib Pandas                                        |
-| Lib azureml-sdk                                   |
 
 
 ---
