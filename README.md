@@ -1,11 +1,29 @@
 # Challenge: Data Scientist
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
-[![Python 3.5](https://img.shields.io/badge/Python-3.5-yellow.svg)](https://www.python.org/downloads/release/python-391/)
+[![Python 3](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/downloads/release/python-391/)
 
-- Challenge for Data Scientist job.
-- Predicting Retail Churn
-- Based in https://gallery.azure.ai/Experiment/Retail-Churn-Template-Step-1-of-4-tagging-data-1
+## Describe Project
+Predict retail churn
+
+## Objectives
+- Use Microsoft Azure Machine Learning Studio
 - Import external librarie in Azure Machine Learning Studio
+
+## Data Source
+In this repository: [raw](https://github.com/brunocampos01/predicting-retail-churn-with-azure-ml-studio/tree/master/data/raw)
+
+## Algorithms
+Boosted Decision Tree
+
+#### Sample Tree Generated
+<img src="images/sample_tree.JPG" align="center" height=auto width=30%/>
+
+## Quickstart
+- [Step 01 - data cleansing and feature engineering](https://gallery.cortanaintelligence.com/Experiment/01-Retail-Churn-data-cleansing-and-feature-engineering)
+- [Step 02 - Train and evaluate](https://gallery.cortanaintelligence.com/Experiment/02-Retail-Churn-train-and-evaluate-model)
+- [Step 03 - dashboard](data_visualization/)
+
+## Snapshots
 
 <img src="images/01.1-data_cleansing.JPG" align="center" height=auto width=80%/>
 
@@ -21,19 +39,9 @@
 
 <img src="images/challenge_retail_churn_5.png" align="center" height=auto width=80%/>
 
----
-
-#### Sample Tree Generated
-<img src="images/sample_tree.JPG" align="center" height=auto width=30%/>
 
 
-## Algoritm
-- Boosted Decision Tree
 
-## Quickstart
-- [Step 01 - data cleansing and feature engineering](https://gallery.cortanaintelligence.com/Experiment/01-Retail-Churn-data-cleansing-and-feature-engineering)
-- [Step 02 - Train and evaluate](https://gallery.cortanaintelligence.com/Experiment/02-Retail-Churn-train-and-evaluate-model)
-- [Step 03 - dashboard](data_visualization/)
 
 ## Requirements
 This project is tested with:
